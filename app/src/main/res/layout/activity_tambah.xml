@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:animateLayoutChanges="true"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    tools:context=".Activity.TambahActivity"
+    >
+
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/editTextParentLinearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".5"
+                android:background="?attr/colorPrimary"
+                android:gravity="center"
+                android:orientation="vertical">
+
+
+                <com.tugasakhir.remindme.Utility.CustomTextInputLayout
+                    android:id="@+id/toDoCustomTextInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    app:hintTextAppearance="@style/FloatingLabelTextAppearance">
+
+                    <EditText
+                        android:id="@+id/et_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="32dp"
+                        android:layout_marginRight="32dp"
+                        android:gravity="start|bottom"
+                        android:hint="Title"
+                        android:inputType="textAutoCorrect|textCapSentences"
+                        android:lines="2"
+                        android:maxLength="30"
+                        android:maxLines="3"
+                        android:textColor="@color/colorAccent" />
+
+                </com.tugasakhir.remindme.Utility.CustomTextInputLayout>
+
+            </LinearLayout>
+
+
+            <com.tugasakhir.remindme.Utility.CustomTextInputLayout
+                android:id="@+id/toDoCustomTextInput01"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:paddingTop="20dp"
+                app:hintTextAppearance="@style/FloatingLabelTextAppearance">
+
+                <EditText
+                    android:id="@+id/et_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_weight="0"
+                    android:gravity="start|bottom"
+                    android:hint="Description"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:lines="2"
+                    android:maxLines="3"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/colorAccent" />
+
+            </com.tugasakhir.remindme.Utility.CustomTextInputLayout>
+
+            <com.tugasakhir.remindme.Utility.CustomTextInputLayout
+                android:id="@+id/toDoCustomTextInput02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:paddingTop="20dp"
+                app:hintTextAppearance="@style/FloatingLabelTextAppearance">
+
+                <EditText
+                    android:id="@+id/et_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_weight="0"
+                    android:gravity="start|bottom"
+                    android:hint="date"
+                    android:inputType="textMultiLine|textCapSentences"
+                    android:lines="2"
+                    android:maxLines="3"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/colorAccent" />
+
+            </com.tugasakhir.remindme.Utility.CustomTextInputLayout>
+
+<!--            <com.tugasakhir.remindme.Utility.CustomTextInputLayout-->
+<!--                android:id="@+id/toDoCustomTextInput03"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:gravity="center"-->
+<!--                android:paddingTop="20dp"-->
+<!--                app:hintTextAppearance="@style/FloatingLabelTextAppearance">-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/btnNotify"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:text="Set Reminder"/>-->
+
+<!--            </com.tugasakhir.remindme.Utility.CustomTextInputLayout>-->
+
+            <LinearLayout
+                android:id="@+id/todoReminderAndDateContainerLayout"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:orientation="vertical">
+
+
+
+                <LinearLayout
+                    android:id="@+id/toDoEnterDateLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginLeft="36dp"
+                    android:layout_marginRight="36dp"
+                    android:layout_weight="1"
+                    android:animateLayoutChanges="true"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabSimpan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_send_white_18dp"
+            app:fabSize="normal"
+            app:layout_anchor="@id/editTextParentLinearLayout"
+            app:layout_anchorGravity="bottom|right" />
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>
