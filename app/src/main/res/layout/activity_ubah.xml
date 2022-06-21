@@ -46,7 +46,6 @@
                         android:gravity="start|bottom"
                         android:hint="Title"
                         android:inputType="textAutoCorrect|textCapSentences"
-                        android:lines="2"
                         android:maxLength="30"
                         android:maxLines="3"
                         android:textColor="@color/colorAccent" />
@@ -92,6 +91,33 @@
                 app:hintTextAppearance="@style/FloatingLabelTextAppearance">
 
                 <EditText
+                    android:id="@+id/et_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="32dp"
+                    android:layout_marginRight="32dp"
+                    android:layout_weight="0"
+                    android:gravity="start|bottom"
+                    android:hint="Update Time"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:textIsSelectable="false"
+                    android:scrollbars="vertical"
+                    android:textColor="@color/colorAccent" />
+
+            </com.tugasakhir.remindme.Utility.CustomTextInputLayout>
+
+            <com.tugasakhir.remindme.Utility.CustomTextInputLayout
+                android:id="@+id/toDoCustomTextInput03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:paddingTop="20dp"
+                app:hintTextAppearance="@style/FloatingLabelTextAppearance">
+
+                <EditText
                     android:id="@+id/et_date"
                     android:layout_width="match_parent"
                     android:layout_height="60dp"
@@ -99,14 +125,17 @@
                     android:layout_marginRight="32dp"
                     android:layout_weight="0"
                     android:gravity="start|bottom"
-                    android:hint="date"
-                    android:inputType="textMultiLine|textCapSentences"
-                    android:lines="2"
-                    android:maxLines="3"
+                    android:hint="Update Date"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:textIsSelectable="false"
                     android:scrollbars="vertical"
                     android:textColor="@color/colorAccent" />
 
             </com.tugasakhir.remindme.Utility.CustomTextInputLayout>
+
+
 
 
             <!--            <com.tugasakhir.remindme.Utility.CustomTextInputLayout-->
