@@ -44,4 +44,5 @@ dependencies {
     implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0-beta01'
     implementation 'com.github.jakebonk:Notifyme:1.0.0'
     implementation 'com.wdullaer:materialdatetimepicker:3.6.0'
+    implementation 'com.airbnb.android:lottie:5.2.0'
 }

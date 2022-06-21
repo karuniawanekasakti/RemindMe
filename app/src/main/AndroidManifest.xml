@@ -25,6 +25,20 @@
         </receiver>
 
 
+        <activity
+            android:name="com.tugasakhir.remindme.Activity.SplashActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:exported="true"
+            android:theme="@style/AppTheme.Splash"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
         <activity android:name="com.tugasakhir.remindme.Activity.UbahActivity"
             android:parentActivityName="com.tugasakhir.remindme.Activity.MainActivity">
 
@@ -34,11 +48,6 @@
             android:name="com.tugasakhir.remindme.Activity.TambahActivity"
             android:parentActivityName="com.tugasakhir.remindme.Activity.MainActivity" />
         <activity android:name="com.tugasakhir.remindme.Activity.MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
 
     </application>
