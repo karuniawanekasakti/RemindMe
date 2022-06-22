@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RemindMe</string>
+    <string name="title">عنوان</string>
+    <string name="language">لغة</string>
+    <string name="description">وصف</string>
+    <string name="choose_time">اختر الوقت</string>
+    <string name="choose_date">اختر موعدا</string>
+    <string name="no_to_dos">ليس لديك أي مهام</string>
+</resources>

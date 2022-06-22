@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RemindMe</string>
+    <string name="title">Título</string>
+    <string name="language">Linguagem</string>
+    <string name="description">Descrição</string>
+    <string name="choose_time">Escolha o horário</string>
+    <string name="choose_date">Escolha a data</string>
+    <string name="no_to_dos">Você não tem todos</string>
+</resources>

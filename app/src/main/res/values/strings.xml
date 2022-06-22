@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">RemindMe</string>
     <string name="no_to_dos">You don\'t have any todos</string>
+    <string name="title">Title</string>
+    <string name="language">Language</string>
+    <string name="description">Description</string>
+    <string name="choose_time">Choose Time</string>
+    <string name="choose_date">Choose Date</string>
+
 </resources>
