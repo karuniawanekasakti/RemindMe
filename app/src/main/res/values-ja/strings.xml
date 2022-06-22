@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RemindMe</string>
+    <string name="no_to_dos">やることはありません</string>
+    <string name="title">題名</string>
+    <string name="language">言語</string>
+    <string name="description">説明</string>
+    <string name="choose_time">時間の選択</string>
+    <string name="choose_date">日付を選択</string>
+</resources>

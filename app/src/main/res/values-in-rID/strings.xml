@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RemindMe</string>
+    <string name="no_to_dos">Kamu tidak memiliki todo</string>
+    <string name="title">Judul</string>
+    <string name="language">Bahasa</string>
+    <string name="description">Deskripsi</string>
+    <string name="choose_time">Pilih Waktu</string>
+    <string name="choose_date">Pilih Tanggal</string>
+</resources>
